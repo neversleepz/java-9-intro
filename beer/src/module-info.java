@@ -1,0 +1,3 @@
+module beer {
+    exports beer;
+}

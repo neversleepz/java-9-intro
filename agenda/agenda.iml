@@ -7,10 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="beer" />
-    <orderEntry type="module" module-name="pizza" />
-    <orderEntry type="module" module-name="attendees" />
-    <orderEntry type="module" module-name="agenda" />
-    <orderEntry type="module" module-name="cake" />
+    <orderEntry type="module" module-name="chad.harris" />
   </component>
 </module>

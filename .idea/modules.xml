@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aconex/aconex.iml" filepath="$PROJECT_DIR$/aconex/aconex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/agenda/agenda.iml" filepath="$PROJECT_DIR$/agenda/agenda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/attendees/attendees.iml" filepath="$PROJECT_DIR$/attendees/attendees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beer/beer.iml" filepath="$PROJECT_DIR$/beer/beer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cake/cake.iml" filepath="$PROJECT_DIR$/cake/cake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chad.harris/chad.harris.iml" filepath="$PROJECT_DIR$/chad.harris/chad.harris.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hays/hays.iml" filepath="$PROJECT_DIR$/hays/hays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-9-intro.iml" filepath="$PROJECT_DIR$/.idea/java-9-intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meetup/meetup.iml" filepath="$PROJECT_DIR$/meetup/meetup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organisers/organisers.iml" filepath="$PROJECT_DIR$/organisers/organisers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pizza/pizza.iml" filepath="$PROJECT_DIR$/pizza/pizza.iml" />
+      <module fileurl="file://$PROJECT_DIR$/raffle.winner/raffle.winner.iml" filepath="$PROJECT_DIR$/raffle.winner/raffle.winner.iml" />
+    </modules>
+  </component>
+</project>
