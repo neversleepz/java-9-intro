@@ -1,7 +1,8 @@
 package thanks;
 
-import util.Util;
-
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +11,7 @@ public class Gratitude {
         // banners from http://www.ascii-art-generator.org/
         List<String> sponsors = List.of("aconex.txt", "hays.txt", "docmosis.txt");
         sponsors.forEach( (sponsorLogo) -> {
-            Util.displayGraphic(sponsorLogo);
+            displayGraphic(sponsorLogo);
             try {
                 System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                 TimeUnit.SECONDS.sleep(5);
@@ -18,5 +19,14 @@ public class Gratitude {
                 // ignored
             }
         });
+    }
+
+    public static void displayGraphic(String filename) {
+        try {
+            Files.lines(Paths.get("ansi", filename))
+                    .forEach(System.out::println);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

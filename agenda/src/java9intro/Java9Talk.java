@@ -1,6 +1,6 @@
 package java9intro;
 
-import util.Util;
+import melbjvm.util.Util;
 
 public class Java9Talk {
     public Java9Talk() {

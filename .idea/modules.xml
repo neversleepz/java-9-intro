@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/pizza/pizza.iml" filepath="$PROJECT_DIR$/pizza/pizza.iml" />
       <module fileurl="file://$PROJECT_DIR$/raffle.winner/raffle.winner.iml" filepath="$PROJECT_DIR$/raffle.winner/raffle.winner.iml" />
       <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilities/utilities.iml" filepath="$PROJECT_DIR$/utilities/utilities.iml" />
     </modules>
   </component>
 </project>

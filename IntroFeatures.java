@@ -21,86 +21,83 @@ class Java9Intro {
         "New release cycle", Features::newReleaseCycle,
         "G1 default garbage collector", Features::g1,
         "Nashorn ES6 enhancements", Features::es6,
-        "Completable Future", Features::completableFuture,
-         "Searchable Javadoc", Features::html5docs //,
-//        "Compact Strings", Features::compactStrings,
-//        "jlink / jdeps", Features::jlink,
-//        "Graal / Truffle", Features::graal
+        "Existing API enhancements", Features::apiEnhancements,
+        "Searchable Javadoc", Features::html5docs,
+        "Compact Strings", Features::compactStrings,
+        "jlink / jdeps", Features::jlink,
+        "Graal / Truffle", Features::graal
      );
    }
 
 }
 
+import java.awt.Desktop
+
 class Features {
 
    static String jigsaw() {
-	return "Placeholder";
+        Desktop.getDesktop().open("meetup/tweetable-module-info.java")
+
+        new Scanner(System.in).nextLine()
+
+	    Desktop.getDesktop().open("Java9IOOF.key")
+
    }
 
    static String jshell() {
-	return "Placeholder";
+	return "You are watching it now.  Remind me if I haven't shown you imports";
    }
 
    static String collectionHelpers() {
-	return "Placeholder";
+	return "List/Set/Map.of";
    }
 
    static String reactiveStreams() {
-	return "Placeholder";
+	return "RxJava comes to the JDK";
    }
 
    static String newReleaseCycle() {
-	return "Placeholder";
+	return "Releases every 6 months.  Long Term Support versions every 3 years.\n" +
+            "OpenJDK very very close to OracleJDK & default going forward";
    }
 
    static String es6() {
-	return "Placeholder";
+	return "Nashorn supports ES6 syntax, let, const and arrow functions.\nUnfortunately generators aren't supported";
    }
 
    static String g1() {
-	return "Placeholder";
+	return "G1 is the default garbage collector in Java";
    }
 
-   static String completableFuture() {
-	return "Placeholder";
+   static String apiEnhancements() {
+	return "Optional has some helpful methods, Streams, and CompletableFuture get some love";
    }
 
    static String html5docs() {
-	return "Placeholder";
+       Desktop.getDesktop.browse("https://docs.oracle.com/javase/9/docs/api/index.html");
+
+       return "You can now search JavaDocs";
    }
 
    static String compactStrings() {
-	return "Placeholder";
+	return "Java is more efficient at storing strings that dont have unicode in them.";
    }
 
    static String jlink() {
-	return "Placeholder";
+	return "JLink lets you take just the modules your app needs and build at cut down JRE distribution\n"+
+            "This is great for Docker images and can cut down a regular Java image of 200+MB to around 33MB";
    }
 
    static String graal() {
 
-	return "Placeholder";
+	   return "Graal is an API to the JVM Compiler Interface.  It enables dynamic and non dynamic languages";
    }
 
 
    static String http2client() {
 
-	return "Placeholder";
-   }
-
-   static String todo1() {
-
-	return "Placeholder";
-   }
-
-   static String todo2() {
-
-	return "Placeholder";
-   }
-
-   static String todo3() {
-
-	return "Placeholder";
+	return "The http2client didn't make Java9 due to bugs.  Hopefully it'll make Java 18.3.  You can try it out though" +
+            "/env";
    }
 
 }

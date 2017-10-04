@@ -1,7 +1,6 @@
-module agenda {
-    exports news;
-    exports java9intro;
-    exports propertybasedtesting;
-    requires chad.harris;
-    requires util;
-}
+//module agenda {
+//    requires utilities;
+//    exports news;
+//    exports java9intro;
+//    exports propertybasedtesting;
+//}

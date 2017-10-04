@@ -1,4 +1,4 @@
-package util;
+package melbjvm.util;
 
 import java.io.IOException;
 import java.nio.file.Files;
