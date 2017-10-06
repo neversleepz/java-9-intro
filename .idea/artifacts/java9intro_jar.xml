@@ -14,6 +14,7 @@
       <element id="module-output" name="pizza" />
       <element id="module-output" name="organisers" />
       <element id="module-output" name="raffle.winner" />
+      <element id="module-output" name="java-9-intro" />
     </root>
   </artifact>
 </component>

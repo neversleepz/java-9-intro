@@ -31,17 +31,18 @@ class Java9Intro {
 
 }
 
-import java.awt.Desktop
+import java.awt.Desktop;
 
 class Features {
 
-   static String jigsaw() {
-        Desktop.getDesktop().open("meetup/tweetable-module-info.java")
+   static String jigsaw() throws IOException {
+        Desktop.getDesktop().open(new File("meetup/tweetable-module-info.java"));
 
-        new Scanner(System.in).nextLine()
+        new Scanner(System.in).nextLine();
 
-	    Desktop.getDesktop().open("Java9IOOF.key")
+	    Desktop.getDesktop().open(new File("Java9IOOF.key"));
 
+	    return "Thats Jigsaw";
    }
 
    static String jshell() {
@@ -73,8 +74,8 @@ class Features {
 	return "Optional has some helpful methods, Streams, and CompletableFuture get some love";
    }
 
-   static String html5docs() {
-       Desktop.getDesktop.browse("https://docs.oracle.com/javase/9/docs/api/index.html");
+   static String html5docs() throws Exception {
+       Desktop.getDesktop().browse(new URI("https://docs.oracle.com/javase/9/docs/api/index.html"));
 
        return "You can now search JavaDocs";
    }

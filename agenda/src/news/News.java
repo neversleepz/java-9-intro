@@ -57,7 +57,12 @@ public class News {
         System.out.println("Microsoft is adding a Java Debugger to VS Code\n"+
         "compliments some existing Java coding help\n\n");
 
+        waitForEnter();
 
+
+        System.out.println("Next Meetups");
+        System.out.println("VJUG24 - Oct 25th @ MessageMedia");
+        System.out.println("Java libraries you cant afford to miss - November @ Aconex");
     }
 
     private String waitForEnter() {
